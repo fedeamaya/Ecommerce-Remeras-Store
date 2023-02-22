@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Remera 1",
+      "price": 400,
+      "img":".src/assets/GitHub.png",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 3,
+      "talle": "S"
+    },
+    {
+      "id": 2,
+      "name": "Remera 2",
+      "price": 500,
+      "img":".src/assets/JavaScript.png",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 8,
+      "talle": "M"
+    },
+    {
+      "id": 3,
+      "name": "Remera 3",
+      "price": 700,
+      "img":".src/assets/NodeJs.png",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 3,
+      "talle": "L"
+    },
+    {
+      "id": 4,
+      "name": "Remera 4",
+      "price": 600,
+      "img":".src/assets/React.png",
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 5,
+      "talle": "XL"
+    }
+  ]
