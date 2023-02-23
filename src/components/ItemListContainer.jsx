@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
-import Data from "../data.json";
+import Data from "/data.json";
 import { useParams } from "react-router-dom";
 import { Heading, Center } from "@chakra-ui/react";
 const ItemListContainer = () => {

@@ -1,15 +1,17 @@
 import ItemDetail from "./ItemDetail";
 import { useState, useEffect } from "react";
-import Data from "../data.json";
+import { useParams } from "react-router-dom";
+import Data from "/data.json";
+
 const ItemDetailContainer = () => {
   const { id } = useParams();
 
   const [remeras, setRemeras] = useState([]);
 
-     useEffect(() => {
+  useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(Data);
+        const response = await fetch("/data.json");
         const data = await response.json();
         setRemeras(data);
       } catch (error) {
@@ -17,11 +19,11 @@ const ItemDetailContainer = () => {
       }
     }
     fetchData();
-  }, []); 
+  }, []);
 
-   const remeraFilter = Data.filter((remera) => remera.id == id);
+  const remeraFilter = remeras.filter((remera) => remera.id === id);
 
-  return <ItemDetail remeras={Data} />;
+  return <ItemDetail remeras={remeraFilter} />;
 };
 
 export default ItemDetailContainer;
